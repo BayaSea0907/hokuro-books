@@ -1,8 +1,16 @@
 [
   {
+    "name": "yakubutsu_ranyo",
+    "path": "/yakubutsu_ranyo",
+    "component": "/Users/seabaya/development/hokuro-books/pages/yakubutsu_ranyo.vue",
+    "chunkName": "pages/yakubutsu_ranyo",
+    "_name": "_9edaab46"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/seabaya/development/hokuro-books/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_58ebc008"
   }
 ]

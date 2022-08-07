@@ -12,6 +12,8 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
+import nuxt_plugin_plugin_f8849100 from 'nuxt_plugin_plugin_f8849100' // Source: ./components/plugin.js (mode: 'all')
+
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
 
@@ -60,7 +62,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"meta":[],"link":[],"style":[],"script":[]},
+    head: {"title":"ほくろマンガ","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes, shrink-to-fit=no"},{"name":"author","content":"ばや"},{"name":"description","content":"日常のひとこまを漫画に描いて発信している「ほくろ」さんを応援するサイトです。"}],"link":[],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -173,6 +175,10 @@ async function createApp(ssrContext, config = {}) {
     }
   }
   // Plugin execution
+
+  if (typeof nuxt_plugin_plugin_f8849100 === 'function') {
+    await nuxt_plugin_plugin_f8849100(app.context, inject)
+  }
 
   // Lock enablePreview in context
   if (process.static && process.client) {

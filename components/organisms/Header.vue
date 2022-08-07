@@ -4,18 +4,22 @@
   </header>
 </template>
 
-<style>
+<style lang="scss">
 .header {
-  text-align: center;
-  border-bottom: 1px dotted gray;
+  padding: 5px 20px 5px 20px;
+  border-bottom: 1px dotted $gray-1;
 }
 
 .header__title {
-  font-size: 28px;
-}
+  font-size: 30px;
 
-.header__title a {
-  color: inherit;
-  text-decoration: none;
+  @include max-mq('md') {
+    font-size: 24px;
+  }
+
+  & a {
+    color: inherit;
+    text-decoration: none;
+  }
 }
 </style>
