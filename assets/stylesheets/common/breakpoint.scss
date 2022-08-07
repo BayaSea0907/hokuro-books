@@ -1,0 +1,33 @@
+/*
+ * 画面サイズが Npx 〜 で適応したい場合に使用
+*/
+$maxBreakpointList: (
+  'sm': 'screen and (min-width: 321px)', // SP + ipad
+  'md': 'screen and (min-width: 769px)', // ipad pro + pc
+  'lg': 'screen and (min-width: 1020px)', // lerge pc
+) !default;
+
+// @mediaはCSSの時からあるDSL。
+//   https://developer.mozilla.org/ja/docs/Web/CSS/@media)
+// @contentもCSSの時からあるDSL
+@mixin min-mq($breakpoint: md) {
+  @media #{map-get($maxBreakpointList, $breakpoint)} {
+    @content;
+  }
+}
+
+/*
+ * 画面サイズが 〜 Npx で適応したい場合に使用
+*/
+$minBreakpointList: (
+  'sm': 'screen and (max-width: 320px)', // iphone5
+  'md': 'screen and (max-width: 768px)', // SP + ipad
+  'lg': 'screen and (max-width: 1019px)', // ipad pro + pc
+) !default;
+
+@mixin max-mq($breakpoint: md) {
+  @media #{map-get($minBreakpointList, $breakpoint)} {
+    @content;
+  }
+}
+

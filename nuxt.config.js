@@ -1,5 +1,8 @@
 export default {
   target: 'static',
+  modules: [
+    '@nuxtjs/style-resources'
+  ],
   components: {
     dirs: [
       '~/components',
@@ -8,6 +11,15 @@ export default {
       '~/components/organisms',
     ]
   },
+  styleResources: {
+    scss: [
+      '~/assets/stylesheets/common/variables.scss',
+      '~/assets/stylesheets/common/breakpoint.scss',
+    ]
+  },
+  css: [
+    '~/assets/stylesheets/common/core.scss',
+  ],
   head: {
     title: 'ほくろマンガ',
     meta: [

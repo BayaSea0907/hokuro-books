@@ -1,0 +1,55 @@
+body {
+  font-size: 11px;
+  font-family: $font-family-base;
+  margin-left: auto;
+  margin-right: auto;
+  // レスポンシブルにする
+  // width: 1020px;
+
+}
+
+p,h1,h2,h3 {
+  padding: 0;
+  margin: 0;
+}
+
+// タイトル
+h1 {
+  font-size: 28px;
+}
+
+// セクションの見出し
+h2 {
+  font-size: 20px;
+}
+
+// コンテンツの見出し
+h3 {
+  font-size: 18px;
+  font-weight: $font-weight-normal;
+}
+
+a {
+  // 親要素からテキストカラーを継承する
+  color: inherit;
+  // 下線を消す
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+
+  li {
+    // 点を消す
+    list-style: none;
+  }
+}
+
+img {
+  vertical-align: top;
+}
+
+time {
+  color: inherit;
+}
