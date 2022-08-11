@@ -69,6 +69,7 @@ node_modules/
 # nuxt関連
 dist/  # nuxt generateで書き出されたファイルが保存される
 .nuxt/ # nuxt build(webpack)でビルドされたファイルが保存される
+.nuxt/*
 
 # macが自動的に保存する隠しファイル
 .DS_Store
