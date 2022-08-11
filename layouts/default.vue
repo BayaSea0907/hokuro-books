@@ -4,7 +4,5 @@
     <Information />
 
     <Nuxt />
-
-    <Sidebar />
   </div>
 </template>

@@ -11,10 +11,10 @@
 }
 
 .header__title {
-  font-size: 30px;
+  font-size: 24px;
 
-  @include max-mq('md') {
-    font-size: 24px;
+  @include greater-than-ipad-mini-width {
+    font-size: 30px;
   }
 
   & a {
