@@ -11,7 +11,7 @@
 }
 
 .header__title {
-  font-size: 24px;
+  font-size: 20px;
 
   @include greater-than-ipad-mini-width {
     font-size: 30px;
