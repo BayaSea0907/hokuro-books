@@ -4,7 +4,7 @@
   </header>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .header {
   padding: 5px 20px 5px 20px;
   border-bottom: 1px dotted $gray-1;

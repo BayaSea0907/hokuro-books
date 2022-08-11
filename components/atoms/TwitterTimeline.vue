@@ -5,7 +5,7 @@
   </section>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .twitter-timeline {
     padding: 0 30px 0 30px;
     text-align: center;
