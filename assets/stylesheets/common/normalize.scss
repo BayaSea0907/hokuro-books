@@ -3,8 +3,6 @@ body {
   font-family: $font-family-base;
   margin-left: auto;
   margin-right: auto;
-  // レスポンシブルにする
-  // width: 1020px;
 
 }
 
@@ -44,6 +42,10 @@ ul {
     // 点を消す
     list-style: none;
   }
+}
+
+figure {
+  margin: 0px;
 }
 
 img {

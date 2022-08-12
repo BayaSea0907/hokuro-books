@@ -18,7 +18,7 @@ export default {
     ]
   },
   css: [
-    '~/assets/stylesheets/common/core.scss',
+    '~/assets/stylesheets/common/normalize.scss',
   ],
   head: {
     title: 'ほくろマンガ',
