@@ -8,8 +8,13 @@ jobs:
     if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: npm run build && npm run generate
+      - uses: actions/checkout@v3
+
+      # Install Nuxt
+      - run: yarn add nuxt@2.15
+
+      # Nuxt build and generate
+      - run: yarn run build && yarn run generate
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
