@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header />
-    <Information />
+    <LayoutHeader />
+    <LayoutInformation />
 
     <!-- TODO: パンくずリストを入れたい -->
 
@@ -11,7 +11,7 @@
       </div>
 
       <div class="main__sidebar">
-        <Sidebar />
+        <LayoutSidebar />
       </div>
     </div>
   </div>
