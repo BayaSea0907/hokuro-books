@@ -1,10 +1,12 @@
 <template>
   <div>
-    <NuxtLink to="/">🏠トップ</NuxtLink>＞
+    <!-- <NuxtLink to="/">🏠トップ</NuxtLink>＞
     <NuxtLink to="/yakubutsu_ranyo_zutsu">薬物乱用頭痛</NuxtLink>＞
-    <NuxtLink to="/yakubutsu_ranyo_zutsu/1">18~19話</NuxtLink>
+    <NuxtLink to="/yakubutsu_ranyo_zutsu/1">18~19話</NuxtLink> -->
 
-    <h2>1~9話</h2>
+    <PageTitle
+      title="13~16話"
+    />
     <ul class="magazine-images">
       <li v-for="magazineImage in magazineImages">
         <h3>{{ magazineImage.title }}</h3>
@@ -19,8 +21,10 @@
     data() {
       return {
         magazineImages: [
-          { title: '18話', src: require('~/assets/images/yakubutsu_ranyo_zutsu/18.jpg') },
-          { title: '19話', src: require('~/assets/images/yakubutsu_ranyo_zutsu/19.jpg') },
+          { title: '13話', src: require('~/assets/images/yakubutsu_ranyo_zutsu/13.jpg') },
+          { title: '14話', src: require('~/assets/images/yakubutsu_ranyo_zutsu/14.jpg') },
+          { title: '15話', src: require('~/assets/images/yakubutsu_ranyo_zutsu/15.jpg') },
+          { title: '16話', src: require('~/assets/images/yakubutsu_ranyo_zutsu/16.jpg') },
         ]
       };
     }

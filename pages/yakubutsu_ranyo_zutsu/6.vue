@@ -1,10 +1,13 @@
 <template>
   <div>
-    <NuxtLink to="/">🏠トップ</NuxtLink>＞
+    <!-- <NuxtLink to="/">🏠トップ</NuxtLink>＞
     <NuxtLink to="/yakubutsu_ranyo_zutsu">薬物乱用頭痛</NuxtLink>＞
-    <NuxtLink to="/yakubutsu_ranyo_zutsu/1">21話</NuxtLink>
+    <NuxtLink to="/yakubutsu_ranyo_zutsu/1">21話</NuxtLink> -->
 
-    <h2>1~9話</h2>
+    <PageTitle
+      title="21話(最終話)"
+    />
+
     <ul class="magazine-images">
       <li v-for="magazineImage in magazineImages">
         <h3>{{ magazineImage.title }}</h3>

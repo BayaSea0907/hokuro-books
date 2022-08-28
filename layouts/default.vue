@@ -20,7 +20,7 @@
 <style lang="scss" scoped>
   .main {
     display: block;
-    padding: 40px 16px 40px 16px;
+    padding: 20px 16px 20px 16px;
 
     @include greater-than-ipad-mini-width {
       display: flex;
