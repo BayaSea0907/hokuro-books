@@ -14,6 +14,7 @@
 
 <style lang="scss" scoped>
   .page-title {
+    padding: 0 10px 3px 10px;
     margin-bottom: 10px;
     border-bottom: solid $gray-1;
   }

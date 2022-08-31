@@ -14,29 +14,44 @@
         <img :src="magazineImage.src" class="magazine-images__image">
       </li>
     </ul>
+
+    <div class='pagelist'>
+      <YakubutsuRanyoZutsuPageList />
+    </div>
   </div>
 </template>
 
 <script>
   export default {
     data() {
-      return {
-        magazineImages: [
-          { title: '1話', src: require('~/assets/images/yakubutsu_ranyo_zutsu/01.jpg') },
-          { title: '2話', src: require('~/assets/images/yakubutsu_ranyo_zutsu/02.jpg') },
-          { title: '3話', src: require('~/assets/images/yakubutsu_ranyo_zutsu/03.jpg') },
-          { title: '4話', src: require('~/assets/images/yakubutsu_ranyo_zutsu/04.jpg') },
-        ]
-      };
-    }
-  }
+        return {
+            magazineImages: [
+                { title: "1話", src: require("~/assets/images/yakubutsu_ranyo_zutsu/01.jpg") },
+                { title: "2話", src: require("~/assets/images/yakubutsu_ranyo_zutsu/02.jpg") },
+                { title: "3話", src: require("~/assets/images/yakubutsu_ranyo_zutsu/03.jpg") },
+                { title: "4話", src: require("~/assets/images/yakubutsu_ranyo_zutsu/04.jpg") },
+            ]
+        };
+    },
+}
 </script>
 
 <style lang="scss" scoped>
   .magazine-images {
     &__image {
-      width: 600px;
+      width: 100%;
+      max-width: 100%;
       height: auto;
+
+      @include greater-than-ipad-mini-width {
+        max-width: 600px;
+      }
     }
+  }
+
+  .pagelist {
+    text-align: center;
+    padding: 15px 0 15px 0;
+    border-top: solid $gray-1;
   }
 </style>
