@@ -11,8 +11,6 @@
       仕事で疲れ果て、薬漬けの生活を繰り返した末路とは！？"
       link-path="/yakubutsu_ranyo_zutsu"
     />
-
-
   </div>
 </template>
 

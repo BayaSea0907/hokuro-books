@@ -9,7 +9,7 @@
 <script>
   export default {
     props: {
-      // title, link_pathの属性を持ったオブジェクトのリストを受け取る
+      // [{ title: 'タイトル', link_path: '/xxxx' }, { ... }] 形式のオブジェクトの配列を受け取る
       pageItems: Array,
     }
   }
