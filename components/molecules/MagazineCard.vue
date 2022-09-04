@@ -6,11 +6,11 @@
       </nuxt-link>
     </figure>
     <div class="card-content">
-      <h2 class="card-content__title">
+      <h3 class="card-content__title">
         <nuxt-link class="card-content__title-link" :to=linkPath>
           {{ title }}
         </nuxt-link>
-      </h2>
+      </h3>
       <p class="card-content__description">{{ description }}</p>
     </div>
   </div>
@@ -30,23 +30,26 @@
 <style lang="scss" scoped>
 .card {
   display: flex;
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 14px;
-  border: none;
-
-  @include greater-than-ipad-mini-width {
-    border: solid $gray-1;
-  }
+  border-bottom: 1px solid $gray-1;
 }
 
 .card-thumbnail {
   display: inline-block;
-  width: 200px;
-  height: 130px;
   margin-right: 10px;
+  border: solid $gray-1;
+  width: 600px;
+  height: auto;
+
+  @include greater-than-ipad-mini-width {
+    width: 300px;
+  }
 
   img {
-    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -54,7 +57,12 @@
   display: inline-block;
 
   &__title {
+    font-size: $font-size-h3-sp;
     margin: 10px 0 10px 0;
+
+    @include greater-than-ipad-mini-width {
+      font-size: $font-size-h3;
+    }
   }
 
   &__title-link {
@@ -65,7 +73,8 @@
   }
 
   &__description {
-    padding-left: 15px;
+    color: $gray-3;
+    padding-left: 10px;
   }
 }
 </style>
