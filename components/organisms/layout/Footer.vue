@@ -8,6 +8,10 @@
         <span class="footer_navigation__item--partition">|</span>
         <NuxtLink to="/privacy_policy">プライバシーポリシー</NuxtLink>
       </li>
+      <li class="footer-navigation__item">
+        <span class="footer_navigation__item--partition">|</span>
+        <NuxtLink to="/terms_of_service">利用規約</NuxtLink>
+      </li>
     </ul>
   </footer>
 </template>
