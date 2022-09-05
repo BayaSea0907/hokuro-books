@@ -3,8 +3,6 @@
     <LayoutHeader />
     <LayoutInformation />
 
-    <!-- TODO: パンくずリストを入れたい -->
-
     <div class="main">
       <div class="main__body">
         <Nuxt />
@@ -14,6 +12,8 @@
         <LayoutSidebar />
       </div>
     </div>
+
+    <LayoutFooter />
   </div>
 </template>
 
