@@ -1,6 +1,6 @@
 <template>
   <MagazineImages
-    :page-title="'17〜20話'"
+    page-title="17〜20話"
     :image-list="magazineImages"
   />
 </template>
