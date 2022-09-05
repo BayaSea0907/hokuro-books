@@ -1,9 +1,7 @@
 <template>
   <aside class="sidebar">
-    <section class="profile">
-    </section>
+    <ProfileCard />
 
     <TwitterTimeline />
-    <RakutenAffiliate />
   </aside>
 </template>
