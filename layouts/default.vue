@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <LayoutHeader />
     <LayoutInformation />
 
@@ -18,6 +18,10 @@
 </template>
 
 <style lang="scss" scoped>
+  .wrapper {
+    overflow: hidden;
+  }
+
   .main {
     display: block;
     padding: 20px 16px 20px 16px;
