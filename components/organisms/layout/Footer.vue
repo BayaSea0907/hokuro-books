@@ -13,6 +13,10 @@
         <NuxtLink to="/terms_of_service">利用規約</NuxtLink>
       </li>
     </ul>
+
+    <div class="footer-copyright">
+      <p class="footer-copyright__text">©️ほくろ, ばや 2022</p>
+    </div>
   </footer>
 </template>
 
@@ -21,7 +25,12 @@
   .footer {
     width: 100%;
     border-top: solid $gray-1;
-    padding: 20px 0 20px 0;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+    @include greater-than-ipad-mini-width {
+      padding-bottom: 20px;
+    }
   }
 
   .footer-navigation {
@@ -34,5 +43,11 @@
     &__item--partition {
       margin: 0 3px 0 3px;
     }
+  }
+
+  .footer-copyright {
+    text-align:center;
+    margin-top: 5px;
+    color: $gray-3;
   }
 </style>
