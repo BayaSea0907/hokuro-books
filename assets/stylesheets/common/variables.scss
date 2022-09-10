@@ -1,0 +1,57 @@
+@charset 'UTF-8';
+
+// colors
+$white: #ffffff !default;
+$black: #383838 !default;
+
+$gray-1: #cccccc !default;
+$gray-2: #888888 !default;
+$gray-3: #444444 !default;
+
+$green-1: #00913a !default;
+$green-2: #006419 !default;
+$green-3: #a3cdaf !default;
+
+$orange-1: #f8b62d !default;
+$orange-2: #ff5e12 !default;
+$orange-3: #fff8f4 !default;
+
+$yellow-1: #fff1ae !default;
+$yellow-2: #caa602 !default;
+$yellow-3: #fffdf1 !default;
+
+$red-1: #e83820 !default;
+$red-2: #f2dede !default;
+$red-3: #a94442 !default;
+
+$blue-facebook: #1877f2 !default; //facebookのブランドカラー
+$blue-twitter: #1da1f2 !default; //twitterのブランドカラー
+
+$tp: transparent !default;
+$tp-white: rgba(255, 255, 255, 0.2) !default;
+$tp-gray: rgba(0, 0, 0, 0.1) !default;
+$tp-black: rgba(0, 0, 0, 0.2) !default;
+
+$shadow: rgba(0, 0, 0, 0.2) !default;
+
+// Fonts
+$font-family-base: 'Yu Gothic Medium', YuGothic, 'Yu Gothic', '游ゴシック体', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro', 'メイリオ', Meiryo, sans-serif !default;
+
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+
+$font-size-body: 11px;
+$font-size-h1: 30px;
+$font-size-h2: 24px;
+$font-size-h3: 18px;
+$font-size-h3-sp: 14px;
+
+// z-index
+$z-index-1: 1 !default;
+$z-index-5: 5 !default;
+$z-index-10: 10 !default;
+$z-index-20: 20 !default;
+
+// content width
+$total-width: 1080 !default;
+$main-width: 750 !default;

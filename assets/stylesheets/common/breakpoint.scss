@@ -1,0 +1,11 @@
+// iPad Miniが768pxなのでそれ以降の769pxをブレイクポイントとする
+$break_point: 769px;
+
+// iPad Miniより大きい画面サイズの場合にスタイルを切り替えたい場合に利用する
+// 呼出例) @include greater-than-ipad-mini-width { // スタイル }
+@mixin greater-than-ipad-mini-width {
+  @media screen and (min-width: $break_point) {
+    @content;
+  }
+}
+
