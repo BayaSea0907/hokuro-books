@@ -9,9 +9,9 @@
     />
 
     <ul class="magazine-images">
-      <li v-for="image in imageList">
-        <h3>{{ image.story_number }}話</h3>
-        <img :src="image.src" class="magazine-images__image">
+      <li v-for="image in imageList" class="magazine-image">
+        <h3 class="magazine-image__title">{{ image.story_number }}話</h3>
+        <img class="magazine-image__image" :src="image.src">
       </li>
     </ul>
 
@@ -33,6 +33,18 @@
 
 <style lang="scss" scoped>
   .magazine-images {
+  }
+
+  .magazine-image {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &__title {
+      border-bottom: solid $gray-2;
+      width: auto;
+    }
+
     &__image {
       width: 100%;
       max-width: 100%;
