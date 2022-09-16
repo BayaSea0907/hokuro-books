@@ -2,6 +2,10 @@
   <footer class="footer">
     <ul class="footer-navigation">
       <li class="footer-navigation__item">
+        <NuxtLink to="/">トップ</NuxtLink>
+      </li>
+      <li class="footer-navigation__item">
+        <span class="footer_navigation__item--partition">|</span>
         <NuxtLink to="/contact">お問合せ</NuxtLink>
       </li>
       <li class="footer-navigation__item">
