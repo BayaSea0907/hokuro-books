@@ -33,8 +33,7 @@
 
   .main__body {
     display: inline-block;
-    width: auto;
-    padding: 10px;
+    width: 100%;
 
     @include greater-than-ipad-mini-width {
       width: 70%;
