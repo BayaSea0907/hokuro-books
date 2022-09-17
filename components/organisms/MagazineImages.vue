@@ -38,10 +38,10 @@
   .magazine-image {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 
     &__title {
-      border-bottom: solid $gray-2;
+      border-bottom: thick double $gray-2;
       width: auto;
     }
 
@@ -49,6 +49,7 @@
       width: 100%;
       max-width: 100%;
       height: auto;
+      margin: 0 auto;
 
       @include greater-than-ipad-mini-width {
         max-width: 600px;
