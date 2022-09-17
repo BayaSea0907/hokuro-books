@@ -30,15 +30,14 @@
 <style lang="scss" scoped>
 .card {
   display: flex;
-  padding: 5px;
   margin-bottom: 14px;
-  border-bottom: 1px solid $gray-1;
+  box-shadow: 5px 5px 5px $gray-1;
 }
 
 .card-thumbnail {
   display: inline-block;
   margin-right: 10px;
-  border: solid $gray-1;
+  border: solid $gray-3;
   width: 600px;
   height: auto;
 
@@ -55,6 +54,7 @@
 
 .card-content {
   display: inline-block;
+  padding-right: 10px;
 
   &__title {
     font-size: $font-size-h3-sp;
