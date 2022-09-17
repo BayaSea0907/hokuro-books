@@ -13,7 +13,7 @@
 
 .information__key-visual {
   width: auto;
-  height: 200px;
+  height: 150px;
 
   /* 中央寄せ用 */
   display: block;
