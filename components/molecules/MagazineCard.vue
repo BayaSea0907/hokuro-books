@@ -54,6 +54,7 @@
 
 .card-content {
   display: inline-block;
+  padding-right: 10px;
 
   &__title {
     font-size: $font-size-h3-sp;
