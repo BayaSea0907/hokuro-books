@@ -1,5 +1,7 @@
 <template>
   <div class="wrapper">
+    <GoogleAdsenseDisplayAd />
+
     <LayoutHeader />
     <LayoutInformation />
 
