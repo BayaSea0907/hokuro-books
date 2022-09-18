@@ -6,6 +6,8 @@
     <div class="main">
       <div class="main__body">
         <Nuxt />
+
+        <GoogleAdsenseInfeedAd />
       </div>
 
       <div class="main__sidebar">
