@@ -32,7 +32,34 @@ export default {
       // link: [{ rel: 'icon', type: 'image/x-icon', href: '/images/favicon.ico' }]
     ],
     script: [
-      { async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2278159842551677', crossorigin: 'anonymous' },
+      {
+        pbody: true, // <bdoy>直後に配置
+        async: true,
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2278159842551677',
+        crossorigin: 'anonymous',
+      },
+      // GoogleAdsenceの「ディスプレイ広告(レスポンシブ)」用
+      {
+        pbody: true,
+        async: true,
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2278159842551677',
+        crossorigin: 'anonymous',
+      },
+      // GoogleAdsenceの「ディスプレイ広告(レスポンシブ)」用
+      {
+        innerHTML: '(adsbygoogle = window.adsbygoogle || []).push({});',
+      }
+    ],
+    ins: [
+      // GoogleAdsenceの「ディスプレイ広告(レスポンシブ)」用
+      {
+        pbody: true,
+        class: 'adsbygoogle',
+        style: 'display:block',
+        dataAdFormat: 'autorelaxed',
+        dataAdClient: 'ca-pub-2278159842551677',
+        dataAdSlot: '2173204058',
+      }
     ]
   }
 }
