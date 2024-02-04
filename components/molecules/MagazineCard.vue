@@ -38,16 +38,10 @@
   display: inline-block;
   margin-right: 10px;
   border: solid $gray-3;
-  width: 600px;
-  height: auto;
 
-  @include greater-than-ipad-mini-width {
+  &__image {
     width: 300px;
-  }
-
-  img {
-    width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
   }
 }
@@ -55,6 +49,8 @@
 .card-content {
   display: inline-block;
   padding-right: 10px;
+
+  width: auto;
 
   &__title {
     font-size: $font-size-h3-sp;
