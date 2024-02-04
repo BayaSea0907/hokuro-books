@@ -1,10 +1,10 @@
 {
   "name": "hokuro-books",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "generate": "nuxt generate",
-    "start": "nuxt start"
+    "dev": "NODE_OPTIONS='--openssl-legacy-provider' nuxt",
+    "build": "NODE_OPTIONS='--openssl-legacy-provider' nuxt build",
+    "generate": "NODE_OPTIONS='--openssl-legacy-provider' nuxt generate",
+    "start": "NODE_OPTIONS='--openssl-legacy-provider' nuxt start"
   },
   "dependencies": {
     "firebase-tools": "^9.20.0",
