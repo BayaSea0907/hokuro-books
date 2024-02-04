@@ -40,9 +40,13 @@
   border: solid $gray-3;
 
   &__image {
-    width: 300px;
-    height: auto;
-    object-fit: cover;
+    width: 200px;
+    height: 100%;
+    object-fit: contain;
+
+    @include greater-than-ipad-mini-width {
+      width: 300px;
+    }
   }
 }
 

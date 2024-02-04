@@ -14,9 +14,6 @@
         <h3 v-if="image.story_number != ''" class="magazine-image__title">{{ image.story_number }}話</h3>
 
         <img class="magazine-image__image" :src="image.src">
-
-        <!-- NOTE: 2話ごとに→銭湯と末尾に広告を挿入 -->
-        <GoogleAdsenseInfeedAd v-if="index % 2 == 1"/>
       </li>
     </ul>
 
