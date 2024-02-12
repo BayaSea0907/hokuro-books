@@ -21,14 +21,18 @@ export default {
     '~/assets/stylesheets/common/normalize.scss',
   ],
   head: {
-    title: 'ほくろマンガ',
+    titleTemplate: 'ほくろマンガ | %s',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes, shrink-to-fit=no' },
       { name: 'author', content: 'ばや' },
       { name: 'description', content: '日常のひとこまを漫画に描いて発信している「ほくろ」さんを応援するサイトです。' },
-      // TODO: サイトを公開する準備ができたらクローリングを有効にする
-      { name: 'robots', content: 'noindex' },
+      // Google Search Console
+      { name: 'google-site-verification', content: 'h2hijYFBqvtUSBQJ1Q3Xf2TdR8c7gCbs7AVKTMKREWQ' },
+      //
+      // クローリングの無効化
+      // { name: 'robots', content: 'noindex' },
+      //
       // link: [{ rel: 'icon', type: 'image/x-icon', href: '/images/favicon.ico' }]
     ],
     script: [

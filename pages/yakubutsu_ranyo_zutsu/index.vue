@@ -4,7 +4,7 @@
     <!-- <NuxtLink to="/">🏠トップ</NuxtLink> > <NuxtLink to="/yakubutsu_ranyo_zutsu">薬物乱用頭痛</NuxtLink> -->
 
     <PageTitle
-      title="話数一覧"
+      title="薬物乱用頭痛になる社畜"
     />
 
     <YakubutsuRanyoZutsuPageList />
