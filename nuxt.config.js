@@ -33,7 +33,12 @@ export default {
       // クローリングの無効化
       // { name: 'robots', content: 'noindex' },
       //
-      // link: [{ rel: 'icon', type: 'image/x-icon', href: '/images/favicon.ico' }]
+    ],
+    link: [
+      // ファビコン
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      // ファビコン　iPhone用
+      { rel: 'apple-touch-icon', type: 'image/png', sizes: '180x180', href: '/apple-touch-icon.png' },
     ],
     script: [
       // GoogleAdsenceの「ディスプレイ広告(レスポンシブ)」用
