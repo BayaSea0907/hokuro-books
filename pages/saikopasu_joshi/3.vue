@@ -1,6 +1,6 @@
 <template>
   <MagazineImages
-    page-title="8〜11話"
+    page-title="サイコパス上司 8〜11話"
     :image-list="magazineImages"
   >
     <template v-slot:pagelist>

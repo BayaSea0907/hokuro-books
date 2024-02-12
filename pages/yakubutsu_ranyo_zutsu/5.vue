@@ -1,6 +1,6 @@
 <template>
   <MagazineImages
-    page-title="17〜20話"
+    page-title="薬物乱用頭痛になる社畜 17〜20話"
     :image-list="magazineImages"
   >
     <template v-slot:pagelist>
