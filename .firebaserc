@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "hokuro-books"
-  }
+  },
+  "targets": {
+    "hokuro-books": {
+      "hosting": {
+        "app": [
+          "hokuro-books"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

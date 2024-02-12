@@ -38,23 +38,23 @@
   display: inline-block;
   margin-right: 10px;
   border: solid $gray-3;
-  width: 600px;
-  height: auto;
 
-  @include greater-than-ipad-mini-width {
-    width: 300px;
-  }
-
-  img {
-    width: 100%;
+  &__image {
+    width: 200px;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+
+    @include greater-than-ipad-mini-width {
+      width: 300px;
+    }
   }
 }
 
 .card-content {
   display: inline-block;
   padding-right: 10px;
+
+  width: auto;
 
   &__title {
     font-size: $font-size-h3-sp;

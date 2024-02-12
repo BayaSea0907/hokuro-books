@@ -1,8 +1,12 @@
 <template>
   <MagazineImages
-    page-title="9〜12話"
+    page-title="薬物乱用頭痛になる社畜 9〜12話"
     :image-list="magazineImages"
-  />
+  >
+    <template v-slot:pagelist>
+      <YakubutsuRanyoZutsuPageList />
+    </template>
+  </MagazineImages>
 </template>
 
 <script>
