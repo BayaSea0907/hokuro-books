@@ -2,7 +2,11 @@
   <MagazineImages
     page-title="21話(最終話)"
     :image-list="magazineImages"
-  />
+  >
+    <template v-slot:pagelist>
+      <YakubutsuRanyoZutsuPageList />
+    </template>
+  </MagazineImages>
 </template>
 
 <script>

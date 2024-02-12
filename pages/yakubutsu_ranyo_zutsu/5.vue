@@ -2,7 +2,11 @@
   <MagazineImages
     page-title="17〜20話"
     :image-list="magazineImages"
-  />
+  >
+    <template v-slot:pagelist>
+      <YakubutsuRanyoZutsuPageList />
+    </template>
+  </MagazineImages>
 </template>
 
 <script>

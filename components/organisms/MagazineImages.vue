@@ -11,15 +11,14 @@
     <ul class="magazine-images">
       <!-- NOTE: indexは0からスタート -->
       <li v-for="(image, index) in imageList" class="magazine-image">
-        <h3 class="magazine-image__title">{{ image.story_number }}話</h3>
+        <h3 v-if="image.story_number != ''" class="magazine-image__title">{{ image.story_number }}話</h3>
+
         <img class="magazine-image__image" :src="image.src">
-        <!-- NOTE: 2話ごとに広告を挿入 -->
-        <GoogleAdsenseInfeedAd v-if="index % 2 == 1"/>
       </li>
     </ul>
 
     <div class='pagelist'>
-      <YakubutsuRanyoZutsuPageList />
+      <slot name="pagelist"></slot>
     </div>
   </div>
 </template>

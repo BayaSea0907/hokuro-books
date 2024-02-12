@@ -2,8 +2,8 @@
   <aside class="sidebar">
     <ProfileCard />
 
-    <GoogleAdsenseMultiplexAd />
-
     <TwitterTimeline />
+
+    <GoogleAdsenseMultiplexAd />
   </aside>
 </template>
