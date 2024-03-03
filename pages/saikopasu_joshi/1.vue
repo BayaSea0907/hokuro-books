@@ -14,9 +14,9 @@
     data() {
         return {
             magazineImages: [
-                { story_number: 1, src: require("~/assets/images/saikopasu_joshi/01.jpg") },
-                { story_number: 2, src: require("~/assets/images/saikopasu_joshi/02.jpg") },
-                { story_number: 3, src: require("~/assets/images/saikopasu_joshi/03.jpg") },
+                { story_number: 1, src: require("~/assets/images/saikopasu_joshi/01.webp") },
+                { story_number: 2, src: require("~/assets/images/saikopasu_joshi/02.webp") },
+                { story_number: 3, src: require("~/assets/images/saikopasu_joshi/03.webp") },
             ]
         };
     },

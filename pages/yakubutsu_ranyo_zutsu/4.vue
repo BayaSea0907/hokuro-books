@@ -14,10 +14,10 @@
     data() {
         return {
             magazineImages: [
-                { story_number: 13, src: require("~/assets/images/yakubutsu_ranyo_zutsu/13.jpg") },
-                { story_number: 14, src: require("~/assets/images/yakubutsu_ranyo_zutsu/14.jpg") },
-                { story_number: 15, src: require("~/assets/images/yakubutsu_ranyo_zutsu/15.jpg") },
-                { story_number: 16, src: require("~/assets/images/yakubutsu_ranyo_zutsu/16.jpg") },
+                { story_number: 13, src: require("~/assets/images/yakubutsu_ranyo_zutsu/13.webp") },
+                { story_number: 14, src: require("~/assets/images/yakubutsu_ranyo_zutsu/14.webp") },
+                { story_number: 15, src: require("~/assets/images/yakubutsu_ranyo_zutsu/15.webp") },
+                { story_number: 16, src: require("~/assets/images/yakubutsu_ranyo_zutsu/16.webp") },
             ]
         };
     },

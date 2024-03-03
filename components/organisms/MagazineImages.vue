@@ -27,7 +27,7 @@
   export default {
     props: {
       pageTitle: String,
-      // [{ story_number: 1, src: require("~assets/images/xxxx/01.jpg") }, { ... }] 形式のオブジェクトの配列を受け取る
+      // [{ story_number: 1, src: require("~assets/images/xxxx/01.webp") }, { ... }] 形式のオブジェクトの配列を受け取る
       imageList: Array,
     }
   }

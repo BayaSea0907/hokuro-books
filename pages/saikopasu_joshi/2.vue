@@ -14,10 +14,10 @@
     data() {
         return {
             magazineImages: [
-                { story_number: "4・5", src: require("~/assets/images/saikopasu_joshi/04_05.jpg") },
-                { story_number: 6, src: require("~/assets/images/saikopasu_joshi/06.jpg") },
-                { story_number: 7, src: require("~/assets/images/saikopasu_joshi/07_1.jpg") },
-                { story_number: "", src: require("~/assets/images/saikopasu_joshi/07_2.jpg") },
+                { story_number: "4・5", src: require("~/assets/images/saikopasu_joshi/04_05.webp") },
+                { story_number: 6, src: require("~/assets/images/saikopasu_joshi/06.webp") },
+                { story_number: 7, src: require("~/assets/images/saikopasu_joshi/07_1.webp") },
+                { story_number: "", src: require("~/assets/images/saikopasu_joshi/07_2.webp") },
             ]
         };
     },

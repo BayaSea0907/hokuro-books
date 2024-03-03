@@ -2,7 +2,7 @@
   <section class="profile">
     <div class="profile-header">
       <h3 class="profile-header__title">プロフィール</h3>
-      <img class="profile-header__icon" src="~/assets/images/profile_icon.jpg">
+      <img class="profile-header__icon" src="~/assets/images/profile_icon.webp">
       <h4 class="profile-header__nickname">ほくろ</h4>
     </div>
 

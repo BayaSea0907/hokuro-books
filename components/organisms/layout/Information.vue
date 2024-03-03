@@ -1,6 +1,6 @@
 <template>
   <div class="information">
-    <img class="information__key-visual" src="~/assets/images/key_visual.png">
+    <img class="information__key-visual" src="~/assets/images/key_visual.webp">
   </div>
 </template>
 
