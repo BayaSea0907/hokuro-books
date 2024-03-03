@@ -1,8 +1,15 @@
 export default {
   target: 'static',
   modules: [
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    '@nuxtjs/gtm',
   ],
+  gtm: {
+    id: 'GTM-PVPFB923',
+    // 開発中も常にGTMのイベントを発生させたい場合はtrueを設定する。
+    // ※falseだと本番でも無効になってしまうので注意。
+    enabled: true,
+  },
   components: {
     dirs: [
       '~/components',
