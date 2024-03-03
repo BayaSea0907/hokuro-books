@@ -8,7 +8,6 @@
 
     <div class="profile-description">
       <p>「ほくろ」という名前で活動しています。</p>
-      <p>顔にほくろがあったので「ほくろ」です。</p>
       <p>主にエッセイ漫画を描いています。</p>
       <p>お仕事のご相談などは
         <NuxtLink to="/contact">お問合せ</NuxtLink>
