@@ -1,3 +1,14 @@
+<script>
+export default {
+  head: {
+    link: [{
+      rel: 'canonical',
+      href: 'https://hokuro-books.web.app/con_cafe'
+    }]
+  }
+}
+</script>
+
 <template>
   <MagazineImages
     page-title="女になったので、コンカフェ始めました"

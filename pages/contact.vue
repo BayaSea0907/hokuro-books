@@ -1,3 +1,14 @@
+<script>
+export default {
+    head: {
+        link: [{
+            rel: 'canonical',
+            href: 'https://hokuro-books.web.app/contact'
+        }]
+    }
+}
+</script>
+
 <template>
   <div>
     <PageTitle

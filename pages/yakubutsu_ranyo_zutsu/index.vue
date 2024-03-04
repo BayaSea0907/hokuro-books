@@ -1,3 +1,14 @@
+<script>
+export default {
+    head: {
+        link: [{
+            rel: 'canonical',
+            href: 'https://hokuro-books.web.app/yakubutsu_ranyo_zutsu'
+        }]
+    }
+}
+</script>
+
 <template>
   <div>
     <!-- TODO: パンくずリスト表示したい -->

@@ -1,3 +1,14 @@
+<script>
+export default {
+    head: {
+        link: [{
+            rel: 'canonical',
+            href: 'https://hokuro-books.web.app/privacy_policy'
+        }]
+    }
+}
+</script>
+
 <template>
   <div>
     <PageTitle
