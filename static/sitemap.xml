@@ -1,34 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
-<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
-<url>
-  <loc>https://hokuro-books.web.app/</loc>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://hokuro-books.web.app/yakubutsu_ranyo_zutsu</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://hokuro-books.web.app/saikopasu_joshi</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://hokuro-books.web.app/con_cafe</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://hokuro-books.web.app/contact</loc>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>https://hokuro-books.web.app/privacy_policy</loc>
-  <priority>0.3</priority>
-</url>
-<url>
-  <loc>https://hokuro-books.web.app/terms_of_service</loc>
-  <priority>0.3</priority>
-</url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://hokuro-books.web.app/con_cafe</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/contact</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/privacy_policy</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/saikopasu_joshi</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/terms_of_service</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/yakubutsu_ranyo_zutsu</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/saikopasu_joshi/1</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/saikopasu_joshi/2</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/saikopasu_joshi/3</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/saikopasu_joshi/4</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/yakubutsu_ranyo_zutsu/1</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/yakubutsu_ranyo_zutsu/2</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/yakubutsu_ranyo_zutsu/3</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/yakubutsu_ranyo_zutsu/4</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/yakubutsu_ranyo_zutsu/5</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/yakubutsu_ranyo_zutsu/6</loc>
+  </url>
+  <url>
+    <loc>https://hokuro-books.web.app/</loc>
+  </url>
 </urlset>

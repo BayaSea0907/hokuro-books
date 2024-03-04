@@ -3,12 +3,16 @@ export default {
   modules: [
     '@nuxtjs/style-resources',
     '@nuxtjs/gtm',
+    '@nuxtjs/sitemap',
   ],
   gtm: {
     id: 'GTM-PVPFB923',
     // 開発中も常にGTMのイベントを発生させたい場合はtrueを設定する。
     // ※falseだと本番でも無効になってしまうので注意。
     enabled: true,
+  },
+  sitemap: {
+    hostname: 'https://hokuro-books.web.app'
   },
   components: {
     dirs: [
