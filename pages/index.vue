@@ -16,6 +16,12 @@ export default {
     />
 
     <MagazineCard
+      :thumbnail-url="require('~/assets/images/otakuni_rikainoaru_kaisya/thumbnail.webp')"
+      title="オタクに理解のある会社(全8話)"
+      description="オタクに理解のある会社と、愉快な仲間たちとの日常。"
+      link-path="/otakuni_rikainoaru_kaisya"
+    />
+    <MagazineCard
       :thumbnail-url="require('~/assets/images/yakubutsu_ranyo_zutsu/thumbnail.webp')"
       title="薬物乱用頭痛になる社畜(全21話)"
       description="Twitterでバズったエッセイ漫画！
